@@ -1,0 +1,172 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Montserrat', sans-serif;
+}
+
+
+nav{
+position: sticky;
+top: 0;
+background:rgba(0, 0, 0, 0.9);
+padding:15px 40px;
+z-index: 1000;
+}
+
+.logo{
+display:inline-block;
+vertical-align:middle;
+}
+
+.logo img{
+height:40px;
+vertical-align: middle;
+}
+
+.menu{
+display:inline-block;
+list-style:none;
+margin-left:200px;
+vertical-align:middle;
+}
+
+.menu li{
+display:inline-block;
+margin-left:25px;
+}
+
+.menu a{
+color:rgb(255, 255, 255);
+text-decoration:none;
+font-weight:bold;
+}
+
+.menu a:hover{
+    color: gold;
+}
+
+
+.hero{
+position:relative;
+}
+
+.hero img{
+width:100%;
+height:auto;
+}
+
+.hero-text{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+color:white;
+text-shadow:3px 3px 8px black;
+text-align:center;
+width:60%;
+font-size: 20px;
+}
+
+.hero-text h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+
+main{
+text-align:center;
+padding:40px;
+background-color: #191818;
+}
+
+main h2{
+margin-bottom:10px;
+color: white;
+}
+
+main a{
+color:rgb(255, 255, 255);
+text-decoration:none;
+font-weight:bold;
+}
+
+main a:hover{
+    color: gold;
+}
+
+main p{
+margin-bottom:30px;
+}
+
+.card-container{
+text-align:center;
+}
+
+.card{
+display:inline-block;
+width:260px;
+margin:15px;
+padding:15px;
+vertical-align:top;
+background:black;
+border-radius:8px;
+}
+
+.card img{
+width:100%;
+border-radius:5px;
+margin-bottom:10px;
+}
+
+.card h3, .gameinfo{
+margin-bottom:8px;
+color: white;
+}
+
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:30px;
+}
+
+.footer-column{
+display:inline-block;
+width:200px;
+margin:20px;
+vertical-align:top;
+}
+
+.footer-column h4{
+margin-bottom:10px;
+}
+
+.footer-column a{
+display:block;
+color:white;
+text-decoration:none;
+margin:5px 0;
+}
+
+.footer-column a:hover{
+    color: gold;
+}
+
+.trademark{
+text-align:center;
+margin-top:30px;
+padding-top:20px;
+border-top:1px solid #444;
+}
+
+.trademark img{
+height:35px;
+margin-bottom:10px;
+}
+
+.trademark p{
+font-size:14px;
+color:#ccc;
+}
